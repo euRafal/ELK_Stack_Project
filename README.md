@@ -1,6 +1,8 @@
-## Automated ELK Stack Deployment
+## Automated ELK Stack Deployment Project
 
 The files in this repository were used to configure the network depicted below.
+
+This cloud monitoring system is used in configuring an ELK stack server.
 
 
 ![Network Diagram](Diagrams/netdiagram.jpg)
