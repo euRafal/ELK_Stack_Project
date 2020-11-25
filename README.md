@@ -44,7 +44,7 @@ These files have been tested and used to generate a live ELK deployment on Azure
     # Use command module
   - name: Start filebeat service
     command: sudo service filebeat start
-
+```
 
 This document contains the following details:
 - Description of the Topologu
