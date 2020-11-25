@@ -1,4 +1,8 @@
-## Automated ELK Stack Deployment
+# Rafal Maciej Krysiak ELK Stack
+
+This cloud monitoring system is used in configuring an ELK stack server.
+
+## Automated ELK Stack Deployment Project
 
 The files in this repository were used to configure the network depicted below.
 
@@ -58,12 +62,9 @@ The main purpose of this network is to expose a load-balanced and monitored inst
 Load balancing ensures that the application will be highly available, in addition to restricting traffic to the network.
 - _TODO: What aspect of security do load balancers protect? Load balancers protect against DDoS attacks. What is the advantage of a jump box? The jumpbox protects the availability.
 
-<<<<<<< HEAD
 Load balancing ensures that the application will be highly available, in addition to restricting traffic to the network.
 - _TODO: What aspect of security do load balancers protect? Load balancers protect against DDoS attacks. What is the advantage of a jump box? The jumpbox protects the availability.
 
-=======
->>>>>>> 9b43d203df229e7d6b317faaec621b141f0e6bea
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the logs and system traffic.
 - _TODO: What does Filebeat watch for? Watches for log files and log events. Filebeat is a lightweight shipper for forwarding and centralizing log data. Installed as an agent on your servers, Filebeat monitors the log files or locations that you specify, collects log events, and forwards them either to Elasticsearch or Logstash for indexing.
 
@@ -113,7 +114,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-![TODO: Update the path with the name of your screenshot of docker ps output](Images/docker_ps_output.png)
+![DockerPS](Diagrams/container.jpg)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
