@@ -1,5 +1,5 @@
 # ELK_Stack_Project
-In this project I set up a cloud monitoring system by configuring an ELK stack server.
+This project created an ELK Stack server with a cloud monitoring service. 
 
 ## Automated ELK Stack Deployment
 
