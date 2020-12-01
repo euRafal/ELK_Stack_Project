@@ -122,8 +122,9 @@ The following screenshot displays the result of running `docker ps` after succes
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
 
-Web-1 10.0.0.5
-Web-2 10.0.0.6
+- Web-1 10.0.0.5
+- Web-2 10.0.0.6
+- ELK   10.1.0.4
 
 We have installed the following Beats on these machines:
 
@@ -156,7 +157,13 @@ By editing the /etc/ansible/hosts file with the appropriate addresses.
 
 http://23.101.195.224:5601/app/kibana
 
-_As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
+These are specific commands the user will need to run in order to download the playbook, update the files, etc:
 
+nano /etc/ansible/ansible.cfg
+nano /etc/ansible/hosts
 anisble-playbook[name_of_playbook.yml]
+ansible all -m ping
+nano <your-playbook.yml>
+ssh ansible@<your_ip>
+curl <local.host>/setup.php
 
