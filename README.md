@@ -159,11 +159,11 @@ http://23.101.195.224:5601/app/kibana
 
 These are specific commands the user will need to run in order to download the playbook, update the files, etc:
 
-nano /etc/ansible/ansible.cfg
-nano /etc/ansible/hosts
-anisble-playbook[name_of_playbook.yml]
-ansible all -m ping
-nano <your-playbook.yml>
-ssh ansible@<your_ip>
-curl <local.host>/setup.php
+ - nano /etc/ansible/ansible.cfg
+ - nano /etc/ansible/hosts
+ - anisble-playbook[name_of_playbook.yml]
+ - ansible all -m ping
+ - nano <your-playbook.yml>
+ - ssh ansible@<your_ip>
+ - curl <local.host>/setup.php
 
